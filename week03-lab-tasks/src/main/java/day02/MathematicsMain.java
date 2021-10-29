@@ -8,13 +8,13 @@ public class MathematicsMain {
         Scanner scanner = new Scanner(System.in);
         Mathematics mathematics = new Mathematics();
         int integer;
-        Boolean isPrime;
+        boolean isPrime;
 
         System.out.println("Please, enter a number!");
         integer = scanner.nextInt();
 
         isPrime = mathematics.isPrime(integer);
 
-        System.out.println("The number you have given is" + (!isPrime ? " not" : "") + " a prime");
+        System.out.println("The number you have given is" + (!isPrime ? " not" : "") + " a prime.");
     }
 }

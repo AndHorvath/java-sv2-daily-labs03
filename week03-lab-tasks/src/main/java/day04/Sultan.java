@@ -15,7 +15,6 @@ public class Sultan {
         if (!"".equals(resultString)){
             resultString = resultString.substring(0, resultString.length() - 2);
         }
-
         System.out.println(resultString);
     }
 }

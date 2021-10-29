@@ -15,7 +15,6 @@ public class Prime {
         for (int i = 2; i < integer && mayBePrime; i++) {
             mayBePrime = integer % i != 0;
         }
-
-        System.out.println("The number you have given is" + (!mayBePrime || integer == 1 ? " not" : "") + " a prime");
+        System.out.println("The number you have given is" + (!mayBePrime || integer == 1 ? " not" : "") + " a prime.");
     }
 }

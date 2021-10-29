@@ -2,7 +2,7 @@ package day04;
 
 public class Arrest {
 
-    private  boolean[] cellsAndAcquittals = new boolean[100];
+    private final boolean[] cellsAndAcquittals = new boolean[100];
 
     public boolean[] getCellsAndAcquittals() { return cellsAndAcquittals; }
 
